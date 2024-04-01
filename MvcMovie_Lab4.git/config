@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://oreid10@dev.azure.com/oreid10/MvcMovie_Lab4/_git/MvcMovie_Lab4
+[remote "upstream"]
+	url = https://github.com/OsheaReid/MvcMovieLab4.git
+	fetch = +refs/*:refs/*
