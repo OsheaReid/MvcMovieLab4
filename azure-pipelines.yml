@@ -42,12 +42,8 @@ steps:
     minorVersion: '0'
     patchVersion: '0'
 
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'publish'
-    publishWebProjects: false
 
 - task: PublishBuildArtifacts@1
   inputs:
     pathToPublish: '$(Build.ArtifactStagingDirectory)'
-    artifactName: 'drop'
+    artifactName: 'FeedQ2'
